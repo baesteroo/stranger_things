@@ -1,0 +1,43 @@
+
+
+img {
+    width: 130px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+img:hover {
+    transform: translateY(-10px);
+}
+
+
+.divisao-topo {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+}
+
+
+
+.divisao-topo ::-webkit-scrollbar {
+    display: none;
+}
+
+
+.divisao-personagem {
+    text-align: center;
+}
+
+.titulo-personagem , h3 {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+    }
+
+.name{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+ 
+}
